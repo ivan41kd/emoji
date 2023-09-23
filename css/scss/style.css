@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #cff4fc;
+  background: #edeef3;
+}
+
+ol,
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  outline: none;
+}
+
+.header {
+  border: 1px solid #ced4da;
+  background: linear-gradient(92deg, #087990 0.12%, #055160 100%);
+  width: 100%;
+  height: 295px;
+}
+.header__text-wrapper {
+  text-align: center;
+  margin-top: 68px;
+  position: relative;
+}
+.header__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.header__input {
+  width: 820px;
+  height: 64px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #abb5be;
+  position: absolute;
+  left: 30%;
+  top: 28%;
+  padding: 22px 32px 21px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.card__wrapper {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 316px);
+  gap: 22px 19px;
+}
+.card__layout {
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  background: #fff;
+  width: 316px;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+.card__emoji {
+  margin-bottom: 18px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+}
+.card__underline-text {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #000;
+  margin-bottom: 12px;
+}
+.card__description {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: #3f444a;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 64px;
+}
+.footer__wrapper ::before {
+  content: "";
+  width: 986px;
+  height: 1px;
+  background-color: #ced4da;
+  display: block;
+  margin-bottom: 13px;
+}
+.footer__text {
+  color: #6c757d;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}/*# sourceMappingURL=style.css.map */
